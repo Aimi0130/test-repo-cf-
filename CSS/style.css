@@ -52,14 +52,14 @@ h4 {
 
 a,
 a:visited { /* visited link */
-color: #ff7f50;
+color: #d1a78f;
 }
 a:active { /* selected link */
 color: #994c30;
 }
 
 a {
-color: #ff7f50;
+color: #d1a78f;
 text-decoration: none; /* No underlining */
 }
 a:hover {
@@ -69,7 +69,7 @@ text-decoration: underline; /* Underlining when hovering over a link */
 
 a:hover,
 a:focus {
-  color: #cc6540;
+  color: ##d1a78f;
   text-decoration: underline;
 }
 
@@ -93,7 +93,7 @@ a:focus {
   display: inline-block;
   background-color: #d1a78f;
   color: #fff;
-  border: 2px solid #915f1c;
+  border: 2px solid ##d1a78f;
   text-decoration: none;
 }
 
@@ -108,12 +108,12 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #ff7f50;
+  color: ##d1a78f;
   text-transform: uppercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid #d1a78f;
 }
 
 .button.contact:hover {
-  background-color: #ff7f50;
+  background-color: #d1a78f;
   color: #ffffff;
 }
