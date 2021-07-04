@@ -108,12 +108,12 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #d1a78f;
+  color: #f47033;
   text-transform: uppercase;
-  border: 2px solid #d1a78f;
+  border: 2px solid #f47033;
 }
 
 .button.contact:hover {
-  background-color: #d1a78f;
+  background-color: #f47033;
   color: #ffffff;
 }
