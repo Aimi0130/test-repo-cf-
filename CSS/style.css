@@ -123,6 +123,5 @@ a:focus {
   color: #ffffff;
 }
 
-#social {/* id selector */
-  width: auto;
+a.social img {width: auto;
 }
