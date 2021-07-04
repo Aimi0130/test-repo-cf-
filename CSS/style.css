@@ -44,10 +44,6 @@ h4 {
   font-weight: 400;
 }
 
-/* Images */
-img {
-  width: 100%;
-}
 
 /* links and buttons */
 a,
@@ -124,3 +120,8 @@ a:focus {
 }
 
 .social {"width=16px"；}
+
+/* Images */
+img {
+  width: 100%;
+}
