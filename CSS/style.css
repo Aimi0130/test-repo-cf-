@@ -126,4 +126,4 @@ a:focus {
 a.social img {width: auto;
 }
 
-a.top img {width: auto;}
+a.top {width: auto;}
