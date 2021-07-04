@@ -124,5 +124,5 @@ a:focus {
 }
 
 #social {/* id selector */
-  width: 16px;
+  width: auto;
 }
