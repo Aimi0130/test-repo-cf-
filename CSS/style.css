@@ -1,10 +1,7 @@
 
-@charset="utf-8";
-
-img {width: 100%;
+img {
+  width: 100%;
 }
-
-
 
 /*
 Colors used:
@@ -12,22 +9,24 @@ Primary Color (WHITE): #ffffff;
 Secondary Color (light-gray): #c4c4c4;
 Secondary Color(smorky-pink):#d1a78f
 */
-
-
-body {margin:10px;
-  padding:5px;
+body {
+  margin: 10px;
+  padding: 5px;
   background-color: #ffffff;
   color: :#333333;
   font-family: 'Nunito＋Sans', Helvetica;
-  font-size: 15px; /* Sets the font size to 15px */
-  font-weight: 200; /* Sets the font weight to 200 */
-  line-height: 1.5; /* Sets the line-height to 1.5 * the font-size */
+  font-size: 15px;
+  /* Sets the font size to 15px */
+  font-weight: 200;
+  /* Sets the font weight to 200 */
+  line-height: 1.5;
+  /* Sets the line-height to 1.5 * the font-size */
 }
-
 
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -42,29 +41,34 @@ h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
 
-
 /* links and buttons */
-
 a,
-a:visited { /* visited link */
-color: #451600;
+a:visited {
+  /* visited link */
+  color: #451600;
 }
-a:active { /* selected link */
-color: #994c30;
+
+a:active {
+  /* selected link */
+  color: #994c30;
 }
 
 a {
-color: #d1a78f;
-text-decoration: none; /* No underlining */
+  color: #d1a78f;
+  text-decoration: none;
+  /* No underlining */
 }
+
 a:hover {
-color: #cc6540;
-text-decoration: underline; /* Underlining when hovering over a link */
+  color: #cc6540;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
 a:hover,
@@ -72,7 +76,6 @@ a:focus {
   color: #d1a78f;
   text-decoration: underline;
 }
-
 
 .button,
 .button:visited {
