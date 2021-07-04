@@ -68,3 +68,36 @@ a:focus {
   color: #cc6540;
   text-decoration: underline;
 }
+
+
+.button,
+.button:visited {
+  display: inline-block;
+  background-color: transparent;
+  color: #915f1c;
+  font-weight: 400;
+  padding: 10px 26px;
+  border-radius: 4px;
+  border: 2px solid #915f1c;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  display: inline-block;
+  background-color: #d1a78f;
+  color: #fff;
+  border: 2px solid #915f1c;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.inlinelink {
+  color: #b87333;
+  text-decoration: none;
+}
