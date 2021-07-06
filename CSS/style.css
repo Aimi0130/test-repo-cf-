@@ -10,8 +10,7 @@ Secondary Color(Chololate brown):#f47033
 header {background-color: #ffe5c6; padding: 10px;margin: 10px;
   border-bottom: 3px solid #4a4a4a;  text-align: center;
   box-shadow: 6px 8px 10px 0px rgba(50, 50, 50, 0.45);
-  position: fixed;
-  width:100%;}
+  position: absolute;}
 
 body {
   margin: 10px;
