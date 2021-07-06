@@ -4,7 +4,7 @@
 Colors used:
 Primary Color (WHITE): #ffffff;
 Secondary Color (smorky-pink): #d1a78f;
-Secondary Color(Chololate brown):#f47033
+Secondary Color(Chololate brown):#451600
 */
 
 header {background-color: #ffe5c6; padding: 10px;margin: 10px;
@@ -63,10 +63,7 @@ a:visited {
 }
 
 
-a:active {
-  /* selected link */
-  color: #994c30;
-}
+
 
 a:hover {
   color: #cc6540;
@@ -79,6 +76,12 @@ a:focus {
   color: #d1a78f;
   text-decoration: underline;
 }
+
+a:active {
+  /* selected link */
+  color: #994c30;
+}
+
 
 a {
   color: #d1a78f;
@@ -173,12 +176,12 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 500;
-  color: #f47033;
+  color: #d1a78f;
 }
 
 
 nav > ul > li > a:visited
-{color: #451600;  }
+{color: #451600; }
 
 nav > ul > li > a:hover
 {color:#cc6540;}
