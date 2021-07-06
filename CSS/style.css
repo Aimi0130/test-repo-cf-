@@ -179,7 +179,7 @@ nav > ul > li > a:visited{  color: #994c30;  }
 
 
 #hero {
-  background-color: #ffe5c6;;
+  background-color: transparent;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
