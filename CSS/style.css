@@ -131,7 +131,7 @@ a:focus {
 a.social img {width: auto;
 }
 
-.top {width: auto;}
+.logo {width: auto;}
 
 
 /* Layout styling */
@@ -149,4 +149,8 @@ a.social img {width: auto;
 
 #home {
   text-align: center; /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
 }
