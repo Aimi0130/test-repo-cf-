@@ -168,15 +168,11 @@ nav > ul > li > a {
 }
 
 
-nav > ul > li > a:hover
-{  color:#cc6540;}
+nav > ul > li > a:hover{ color:#cc6540;}
 
-nav > ul > li > a:visited
-{ color: #451600;  }
+nav > ul > li > a:visited{ color: #451600;  }
 
-nav > ul > li > a:visited
-{  color: #994c30;  }
+nav > ul > li > a:visited{  color: #994c30;  }
 
-#hero {
-  background-color: #ffe5c6;
+#hero {  background-color: #ffe5c6;
 }
