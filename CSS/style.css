@@ -145,4 +145,8 @@ a.social img {width: auto;
 
 #hero h1 {
   text-align: center; /* Centers text */
-}/* Centers text */
+}
+
+#home {
+  text-align: center; /* Centers text */
+}
