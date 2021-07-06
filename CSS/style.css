@@ -152,7 +152,8 @@ a.social img {width: auto;
 
 #hero p {  text-align: center; /* Centers text */
 }
-.work{text-align:left;}
+
+#work{text-align:left}
 
 .logo {
   max-width: 250px;
