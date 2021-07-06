@@ -157,7 +157,7 @@ nav > ul {
 }
 
 nav > ul > li {
-  display: inline-block;
+  display: inline-block;width=100%;
 }
 
 nav > ul > li > a {
@@ -168,11 +168,10 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover
-{color:#cc6540;}
+{  color:#cc6540;}
 
 nav > ul > li > a:visited
-{color: #451600;  }
+{ color: #451600;  }
 
 nav > ul > li > a:visited
-{  background-color: transparent;
-  color: #994c30;  }
+{  color: #994c30;  }
