@@ -164,7 +164,7 @@ nav > ul {
 }
 
 nav > ul > li {
-  display: inline-block;width:100%;
+  display: inline-block;width=100%;
 }
 
 nav > ul > li > a {
