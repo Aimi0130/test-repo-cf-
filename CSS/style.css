@@ -146,6 +146,8 @@ a.social img {width: auto;
 
 #hero h1 {
   text-align: center; /* Centers text */
+  margin: 0;
+ padding: 0.67em 0;
 }
 
 .logo {
