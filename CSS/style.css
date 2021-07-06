@@ -174,4 +174,5 @@ nav > ul > li > a:visited
 {color: #451600;  }
 
 nav > ul > li > a:visited
-{color: #994c30;  }
+{  background-color: transparent;
+  color: #994c30;  }
