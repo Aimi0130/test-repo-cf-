@@ -166,3 +166,12 @@ nav > ul > li > a {
   font-weight: 500;
   color: #f47033;
 }
+
+nav > ul > li > a:hover
+{color:#cc6540;}
+
+nav > ul > li > a:visited
+{color: #451600;  }
+
+nav > ul > li > a:visited
+{color: #994c30;  }
