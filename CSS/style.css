@@ -150,9 +150,9 @@ a.social img {width: auto;
   text-align: center; /* Centers text */
 }
 
-#hero p {
-  text-align: center; /* Centers text */
+#hero p {  text-align: center; /* Centers text */
 }
+.work{text-align:left;}
 
 .logo {
   max-width: 250px;
@@ -190,5 +190,4 @@ nav > ul > li > a:visited{  color: #994c30;  }
 }
 
 main {
-  padding-top: 133px;
-   text-align: left;}
+  padding-top: 133px;}
