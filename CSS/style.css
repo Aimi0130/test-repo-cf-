@@ -150,6 +150,10 @@ a.social img {width: auto;
   text-align: center; /* Centers text */
 }
 
+#hero p {
+  text-align: center; /* Centers text */
+}
+
 .logo {
   max-width: 250px;
 }
