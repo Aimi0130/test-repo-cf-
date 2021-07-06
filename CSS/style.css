@@ -150,6 +150,9 @@ a.social img {width: auto;
   text-align: center; /* Centers text */
 }
 
+#hero p {
+  text-align: center; /* Centers text */
+}
 
 #work{text-align:left;}
 
