@@ -167,6 +167,7 @@ nav > ul > li > a {
   color: #f47033;
 }
 
+
 nav > ul > li > a:hover
 {  color:#cc6540;}
 
@@ -175,3 +176,7 @@ nav > ul > li > a:visited
 
 nav > ul > li > a:visited
 {  color: #994c30;  }
+
+#hero {
+  background-color: #ffe5c6;
+}
