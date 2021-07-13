@@ -192,7 +192,7 @@ nav > ul > li > a:active
 
 
 
-#hero {
+#hero span{
   background-color: transparent;
   padding: 20px 0;
   display: block;
