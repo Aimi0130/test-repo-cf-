@@ -197,8 +197,15 @@ nav > ul > li > a:active
   padding: 20px 0;
   display: block;
   width: 100%;
+
 }
 
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+}
 main {
   padding-top: 133px;}
 
@@ -211,12 +218,6 @@ main {
       padding: 20px 0 13px;
     }
 
-    nav {
-      width: auto;
-      float: right;
-      margin-top: 4px;
-    }
-  }
   col-md-6 {
     width: 50%;
   }
