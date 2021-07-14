@@ -253,8 +253,8 @@ header {
 
 [class*="col-"] {
   float: left;
-  padding: 10px;
 }
+class*{padding: 10px;}
 
 .row:after {
   content: "";
