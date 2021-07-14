@@ -255,7 +255,7 @@ header {
   float: left;
 }
 
-.row::after {
+.row:after {
   content: "";
   clear: both;
   display: table;
