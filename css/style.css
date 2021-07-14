@@ -1,16 +1,18 @@
-
-
 /*
 Colors used:
 Primary Color (WHITE): #ffffff;
 Secondary Color (smorky-pink): #d1a78f;
 Secondary Color(Chololate brown):#451600
 */
-
-header {background-color: #ffe5c6; padding: 10px;margin: 10px;
-  border-bottom: 3px solid #4a4a4a;  text-align: center;
+header {
+  background-color: #ffe5c6;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+  text-align: center;
   box-shadow: 6px 8px 10px 0px rgba(50, 50, 50, 0.45);
-  position: relative;}
+  position: relative;
+}
 
 body {
   margin: 10px;
@@ -62,9 +64,6 @@ a:visited {
   color: #451600;
 }
 
-
-
-
 a:hover {
   color: #cc6540;
   text-decoration: underline;
@@ -82,14 +81,11 @@ a:active {
   color: #994c30;
 }
 
-
 a {
   color: #d1a78f;
   text-decoration: none;
   /* No underlining */
 }
-
-
 
 .button,
 .button:visited {
@@ -135,69 +131,81 @@ a {
   color: #ffffff;
 }
 
-a.social img {width: auto;
+a.social img {
+  width: auto;
 }
 
-.logo {width: auto;}
-
+.logo {
+  width: auto;
+}
 
 /* Layout styling */
 .container {
   padding: 0 15px;
 }
+
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
-#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
 
 #hero h1 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
 #hero p {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
 
-#work{text-align:left;}
+#work {
+  text-align: left;
+}
 
 .logo {
   max-width: 250px;
 }
-nav > ul {
+
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;width=100%;
+nav>ul>li {
+  display: inline-block;
+  width=100%;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 500;
   color: #d1a78f;
 }
 
+nav>ul>li>a:visited {
+  color: #451600;
+}
 
-nav > ul > li > a:visited
-{color: #451600; }
+nav>ul>li>a:hover {
+  color: #cc6540;
+}
 
-nav > ul > li > a:hover
-{color:#cc6540;}
+nav>ul>li>a:active {
+  color: #994c30;
+}
 
-nav > ul > li > a:active
-{ color: #994c30; }
-
-
-
-
-#hero span{
+#hero span {
   background-color: transparent;
   padding: 20px 0;
   display: block;
   width: 100%;
-
 }
 
 nav {
@@ -206,35 +214,45 @@ nav {
   margin-top: 4px;
 }
 }
-main {
-  padding-top: 133px;}
 
-  /* ==============================
+main {
+  padding-top: 133px;
+}
+
+/* ==============================
   Medium devices (640px and larger)
   ================================= */
-  @media only screen and (min-width: 640px) {
-
-  }
-    header {
-      text-align: unset;
-      padding: 20px 0 13px;
-    }
-  col-md-6 {
-    width: 50%;
-  }
-
-
-  /* ==============================
-Large devices (1024px or larger)
-================================= */
-@media only screen and (min-width: 1024px) {
-}
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
-}
+@media only screen and (min-width: 640px) {}
 
 header {
   text-align: unset;
+  padding: 20px 0 13px;
+}
+
+col-md-6 {
+  width: 50%;
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
+
+header {
+  text-align: unset;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
