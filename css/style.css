@@ -237,7 +237,3 @@ X-large devices (1440px or larger)
 header {
   text-align: unset;
 }
-
-[class*="col-"] {
-  float: left;
-}
