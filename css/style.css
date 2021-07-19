@@ -114,21 +114,6 @@ a {
   opacity: 0.8;
 }
 
-.button {
-  display: inline-block;
-  background-color: #ff7f50;
-  color: white;
-  font-weight: 400;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #994c30;
-  transition-duration: 0.2s;
-  transition-property: opacity;
-}
-.button:hover {
-  opacity: 0.8;
-}
 .inlinelink {
   color: #b87333;
   text-decoration: none;
@@ -146,6 +131,24 @@ a {
   color: #ffffff;
 }
 
+
+.button {
+  display: inline-block;
+  background-color: #d1a78f;
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+.button:hover {
+  opacity: 0.8;
+}
+
+
 a.social img {
   width: auto;
 }
@@ -159,11 +162,7 @@ a.social img {
   padding: 0 15px;
 }
 
-.container {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .row {
   margin: 25px 0;
