@@ -306,11 +306,11 @@ padding: :10px;}
 }
 
 
-@keyframes building-move {
+@keyframes star-move {
   from {transform: translate(0,50px);}
   to {transform: translate(200px,50px);}
 }
 
-.building {
+.star {
   animation: 4s color-change infinite alternate linear;
 }
