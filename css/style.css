@@ -299,11 +299,6 @@ padding: :10px;}
 
 #about-page h3 { margin-top: 0;}
 
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
-}
 
 
 @keyframes star-move {
