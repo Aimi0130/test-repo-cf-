@@ -12,7 +12,7 @@ header {
   text-align: center;
   box-shadow: 6px 8px 10px 0px rgba(50, 50, 50, 0.45);
   position: relative;
-  max-width: 150px;.
+
 }
 
 body {
@@ -195,7 +195,7 @@ a.social img {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 .berlin-illustration{width: 100%;
