@@ -262,6 +262,9 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
 
 
   nav>ul>li {
