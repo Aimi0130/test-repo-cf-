@@ -231,9 +231,7 @@ nav>ul>li>a:active {
 }
 
 
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
+
 
 #hero span {
   background-color: transparent;
@@ -273,10 +271,9 @@ Medium devices (640px and larger)
       display: inline-block;
     }
 
-
-  .navtoggle li:last-child {
-  display: none;
-}
+    .navtoggle li:not(:last-child) {
+      display: inline-block;
+    }
 
 
 
