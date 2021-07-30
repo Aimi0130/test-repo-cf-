@@ -226,6 +226,11 @@ nav>ul>li>a:active {
   color: #994c30;
 }
 
+.navtoggle li:not(:last-child) { 。
+  display: none;
+}
+
+
 #hero span {
   background-color: transparent;
   padding: 20px 0;
