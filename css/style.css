@@ -206,6 +206,9 @@ nav>ul {
   padding: 0;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -280,9 +283,7 @@ Medium devices (640px and larger)
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
+
 
 .navtoggle li .icon {
   position: absolute;
