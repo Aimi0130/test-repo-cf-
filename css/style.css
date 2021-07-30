@@ -6,7 +6,7 @@ Secondary Color(Chololate brown):#451600
 */
 header {
   background-color: #ffe5c6;
-  padding:10px 0 4px; 
+  padding:10px 0 4px;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
   box-shadow: 6px 8px 10px 0px rgba(50, 50, 50, 0.45);
@@ -260,7 +260,7 @@ nav>ul>li>a:active {
 
 
 main {
-  padding-top: 133px;
+  padding-top: 56px;
 }
 
 
