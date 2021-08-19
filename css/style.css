@@ -73,7 +73,9 @@ a:hover {
 
 a:hover,
 a:focus {
-  color: #d1a78f;
+  color: #
+#fce3d4
+;
   text-decoration: underline;
 }
 
@@ -83,7 +85,8 @@ a:active {
 }
 
 a {
-  color: #d1a78f;
+  color: #fce3d4
+;
   text-decoration: none;
   /* No underlining */
 }
