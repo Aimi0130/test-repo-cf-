@@ -73,11 +73,7 @@ a:hover {
 
 a:hover,
 a:focus {
-  color: #
-#b8a397
-;
-  text-decoration: underline;
-}
+  color: #b8a397;
 
 a:active {
   /* selected link */
