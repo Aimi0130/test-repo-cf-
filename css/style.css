@@ -93,7 +93,7 @@ a {
 .button,
 .button:visited {
   display: inline-block;
-  background-color: transparent;
+  background-color: #fcf8f2;
   color: #451600;
   font-weight: 400;
   padding: 10px 26px;
