@@ -18,7 +18,7 @@ header {
 body {
   margin: 10px;
   padding: 5px;
-  background-color: #fcf8f2;
+  background-color: #FFFFFF;
   color: #333333;
   font-family: 'Nunito＋Sans', Helvetica;
   font-size: 15px;
@@ -89,7 +89,7 @@ a {
 .button,
 .button:visited {
   display: inline-block;
-  background-color: #fcf8f2;
+  background-color: #ffffff;
   color: #451600;
   font-weight: 400;
   padding: 10px 26px;
