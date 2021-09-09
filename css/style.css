@@ -120,13 +120,13 @@ a {
 
 .button.contact {
   background-color: transparent;
-  color: #f47033;
+  color: #CB480B;
   text-transform: uppercase;
-  border: 2px solid #f47033;
+  border: 2px solid #CB480B;
 }
 
 .button.contact:hover {
-  background-color: #f47033;
+  background-color: #CB480B;
   color: #ffffff;
 }
 
