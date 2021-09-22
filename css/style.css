@@ -244,8 +244,7 @@ nav > ul {
 }
 
 ​
-.navtoggle,
-.navtoggle.responsive {
+.navtoggle.navtoggle.responsive {
   position: relative;
 }
 
