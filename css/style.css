@@ -354,8 +354,6 @@ box-sizing: border-box;
   from {transform: translate(0,50px);}
   to {transform: translate(200px,50px);}
 
-​
-.star {
-  animation: 4s color-change infinite alternate linear;
-}
+
+.star {animation: 4s color-change infinite alternate linear;
 }
