@@ -342,13 +342,12 @@ box-sizing: border-box;
 @keyframes color-change {
   from {fill: #6FCFA1;}
   to {fill: #4656E4;}
-}
-
 
 @keyframes star-move {
   from {transform: translate(0,50px);}
   to {transform: translate(200px,50px);}
-}
+
 .star {
   animation: 4s color-change infinite alternate linear;
+}
 }
