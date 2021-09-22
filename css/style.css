@@ -277,7 +277,8 @@ main {
 Medium devices (640px and larger)
 ================================= */
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 641px) {}
+  
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -286,7 +287,6 @@ Medium devices (640px and larger)
   nav {width: auto;
     float: right;
     margin-top: 4px;}
-​}
 
 ​
     nav>ul>li {display: inline-block;}
