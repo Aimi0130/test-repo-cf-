@@ -233,6 +233,8 @@ nav>ul {
   font-size: 20px;
   padding-right: 0;
 }
+
+
 ​
 ​
 ​
@@ -256,49 +258,40 @@ nav>ul>li>a:active {
   color: #994c30;
 }
 ​
-​
-​
-​
-​
 #hero span {
   background-color: transparent;
   padding: 20px 0;
   display: block;
   width: 100%;
 }
-​
-​
-​
+
 main {
   padding-top: 56px;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 
 @media only screen and (min-width: 641px) {}
 
-
 header {
   text-align: unset;
   padding: 20px 0 13px;
 }
-​
+
 nav {
   width: auto;
   float: right;
   margin-top: 4px;
 }
 
-​
 nav>ul>li {
   display: inline-block;
-}
-​
+}​
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
-​
 .navtoggle li:last-child {
   display: none;
 }
@@ -310,16 +303,11 @@ nav>ul>li {
 nav > ul {
   margin: 1em 0;
 }
-
-​
-​
 ​
 .col-md-6 {
   width: 50%;
 }
 
-
-​
 .col-lg-7{
   width: 58.33%;
 }
@@ -333,23 +321,21 @@ Large devices (1024px or larger)
 
 @media only screen and (min-width: 1024px) {}
 
-
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
+
 @media only screen and (min-width: 1440px) {}
 ​
 header {
   text-align: unset;
 }
 
-​
 [class*="col-"] {
   float: left;
   padding: 10px;
   box-sizing: border-box;
 }
-​
 ​
 .row:after {
   content: "";
