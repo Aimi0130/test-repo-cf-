@@ -5,7 +5,7 @@ Secondary Color (smorky-pink): #d1a78f;
 Secondary Color(Chololate brown):#451600
 */
 header {
-  padding:10px 0 4px;
+  padding: 10px 0 4px;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
   box-shadow: 6px 8px 10px 0px rgba(50, 50, 50, 0.45);
@@ -16,7 +16,7 @@ body {
   margin: 10px;
   padding: 5px;
   background-color: #fcf8f2;
-  color: #333333;
+  color: #333;
   font-family: 'Nunito＋Sans', Helvetica;
   font-size: 15px;
   font-weight: 200;
@@ -27,31 +27,37 @@ body {
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 ​
 h1 {
   font-size: 2.55em;
   font-weight: 700;
 }
+
 ​
 h2 {
   font-size: 2.25em;
   font-weight: 700;
 }
+
 ​
 h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 ​
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
 ​
 /* Images */
 img {
   width: 100%;
 }
+
 ​
 /* links and buttons */
 a,
@@ -59,27 +65,34 @@ a:visited {
   /* visited link */
   color: #451600;
 }
+
 ​
 a:hover {
   color: #cc6540;
   text-decoration: underline;
+
   /* Underlining when hovering over a link */
 }
+
 ​
 a:hover,
 a:focus {
   color: #b8a397;
 }
+
 a:active {
   /* selected link */
   color: #994c30;
 }
+
 ​
 a {
   color: #ba8768;
   text-decoration: none;
+
   /* No underlining */
 }
+
 ​
 .button,
 .button:visited {
@@ -93,6 +106,7 @@ a {
   transition-duration: 0.2s;
   transition-property: opacity;
 }
+
 ​
 
 .button:hover,
@@ -100,19 +114,22 @@ a {
 .button:active {
   display: inline-block;
   background-color: #d1a78f;
-  color: #ffffff;
+  color: #fff;
   border: 2px solid #d1a78f;
   text-decoration: none;
 }
+
 ​
 .button:hover {
   opacity: 0.8;
 }
+
 ​
 .inlinelink {
   color: #b87333;
   text-decoration: none;
 }
+
 ​
 .button.contact {
   background-color: transparent;
@@ -120,11 +137,13 @@ a {
   text-transform: uppercase;
   border: 2px solid #f47033;
 }
+
 ​
 .button.contact:hover {
   background-color: #f47033;
-  color: #ffffff;
+  color: #fff;
 }
+
 ​
 ​
 ​
@@ -139,6 +158,7 @@ a {
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
 }
+
 ​
 ​
 ​
@@ -147,67 +167,83 @@ a {
 .button:hover {
   opacity: 0.8;
 }
+
 ​
 ​
 a.social img {
   width: auto;
 }
+
 ​
 .logo {
   width: auto;
 }
+
 ​
 /* Layout styling */
 .container {
   padding: 0 15px;
 }
+
 ​
 ​
 ​
 .row {
   margin: 25px 0;
+
   /* 25px top and bottom, 0 left and right */
 }
+
 ​
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
+
 ​
 #hero h1 {
   text-align: center;
+
   /* Centers text */
 }
+
 ​
 #hero p {
   text-align: center;
+
   /* Centers text */
 }
+
 ​
 #work {
   text-align: left;
 }
+
 ​
 .logo {
   max-width: 150px;
 }
+
 ​
 .berlin-illustration {
   width: 100%;
   max-width: 100%;
   height: 200px;
 }
+
 ​
-nav>ul {
+nav > ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
 ​
 ​
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 ​
 .navtoggle, .navtoggle.responsive {
   position: relative;
@@ -217,14 +253,16 @@ nav>ul {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
+
 ​
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -236,9 +274,10 @@ nav>ul {
   font-size: 20px;
   padding-right: 0;
 }
+
 ​
 
-nav>ul>li>a {
+nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 500;
@@ -246,19 +285,20 @@ nav>ul>li>a {
 }
 
 ​
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   color: #451600;
 }
 
 ​
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   color: #cc6540;
 }
 
 ​
-nav>ul>li>a:active {
+nav > ul > li > a:active {
   color: #994c30;
 }
+
 ​
 #hero span {
   background-color: transparent;
@@ -296,14 +336,16 @@ nav>ul>li {
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
+
 .navtoggle li:last-child {
   display: none;
 }
 
 ​
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
+
 ​
 nav > ul {
   margin: 1em 0;
@@ -314,11 +356,11 @@ nav > ul {
   width: 50%;
 }
 
-.col-lg-7{
+.col-lg-7 {
   width: 58.33%;
 }
 
-.col-lg-5{
+.col-lg-5 {
   width: 41.66%;
 }
 
@@ -335,6 +377,7 @@ X-large devices (1440px or larger)
 @media only screen and (min-width: 1440px) {}
 
   ​
+
 header {
   text-align: unset;
 }
@@ -350,9 +393,7 @@ header {
   clear: both;
   display: table;
 }
-
 ​
-
 #about-page h3 {
   margin-top: 0;
 }
