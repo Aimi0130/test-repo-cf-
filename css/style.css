@@ -12,7 +12,7 @@ header {
   position: relative;
 }
 
- body {
+body {
   margin: 10px;
   padding: 5px;
   background-color: #fcf8f2;
@@ -94,6 +94,7 @@ a {
   transition-property: opacity;
 }
 ​
+
 .button:hover,
 .button:focus,
 .button:active {
@@ -233,26 +234,25 @@ nav>ul {
   font-size: 20px;
   padding-right: 0;
 }
+​
 
-
-​
-​
-​
-​
 nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 500;
   color: #d1a78f;
 }
+
 ​
 nav>ul>li>a:visited {
   color: #451600;
 }
+
 ​
 nav>ul>li>a:hover {
   color: #cc6540;
 }
+
 ​
 nav>ul>li>a:active {
   color: #994c30;
@@ -288,13 +288,16 @@ nav {
 
 nav>ul>li {
   display: inline-block;
-}​
+}
+
+​
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
 .navtoggle li:last-child {
   display: none;
 }
+
 ​
 .navtoggle.responsive li  {
   display: block;
@@ -303,6 +306,7 @@ nav>ul>li {
 nav > ul {
   margin: 1em 0;
 }
+
 ​
 .col-md-6 {
   width: 50%;
@@ -311,6 +315,7 @@ nav > ul {
 .col-lg-7{
   width: 58.33%;
 }
+
 .col-lg-5{
   width: 41.66%;
 }
@@ -326,7 +331,8 @@ X-large devices (1440px or larger)
 ================================= */
 
 @media only screen and (min-width: 1440px) {}
-​
+
+  ​
 header {
   text-align: unset;
 }
@@ -336,19 +342,18 @@ header {
   padding: 10px;
   box-sizing: border-box;
 }
-​
+
 .row:after {
   content: "";
   clear: both;
   display: table;
-}
-​
+}​
+
 #about-page h3 {
   margin-top: 0;
 }
 
 @keyframes color-change {
-
   from {
     fill: #6fcfa1;
   }
