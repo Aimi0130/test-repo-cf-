@@ -273,7 +273,8 @@ nav>ul>li>a:active {
 main {
   padding-top: 56px;
 }
-​
+
+
 ​
 ​
 ​
@@ -308,7 +309,7 @@ nav > ul {margin: 1em 0;}
   .col-md-6 {
     width: 50%;}
 
-  }
+
 ​
   .col-lg-7{width: 58.33%;}
   .col-lg-5{width: 41.66%;}
@@ -356,5 +357,6 @@ box-sizing: border-box;
 
 }
 
-.star {animation: 4s color-change infinite alternate linear;
+.star {
+  animation: 4s color-change infinite alternate linear;
 }
