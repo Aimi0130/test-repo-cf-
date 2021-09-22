@@ -265,7 +265,7 @@ main {
 Medium devices (640px and larger)
 ================================= */
 
-@media only screen and (min-width: 641px) {}
+@media only screen and (min-width: 641px) 
 
 header {
   text-align: unset;
@@ -320,7 +320,7 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 
-@media only screen and (min-width: 1440px) 
+@media only screen and (min-width: 1440px)
 
 header {
   text-align: unset;
