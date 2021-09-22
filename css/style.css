@@ -336,10 +336,11 @@ box-sizing: border-box;
   display: table;
 }
 ​
-#about-page h3 { margin-top: 0;}
-​
-​
-@keyframes color-change {
+#about-page h3 { margin-top: 0;
+}
+
+@keyframes color-change {}
+
   from {fill: #6FCFA1;}
   to {fill: #4656E4;}
 
@@ -349,5 +350,4 @@ box-sizing: border-box;
 
 .star {
   animation: 4s color-change infinite alternate linear;
-}
 }
