@@ -314,13 +314,13 @@ nav > ul {
 Large devices (1024px or larger)
 ================================= */
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px)
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 
-@media only screen and (min-width: 1440px) {}​
+@media only screen and (min-width: 1440px) 
 
 header {
   text-align: unset;
