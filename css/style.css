@@ -26,7 +26,7 @@ body {
   line-height: 1.5;
 }
 
-  /* Sets the line-height to 1.5 * the font-size */
+/* Sets the line-height to 1.5 * the font-size */
 
 ​
 h1, h2, h3, h4 {
@@ -196,9 +196,10 @@ a.social img {
   max-width: 150px;
 }
 ​
-.berlin-illustratio{width: 100%;
-max-width: 100%;
-height: 200px;
+.berlin-illustratio{
+  width: 100%;
+  max-width: 100%;
+  height: 200px;
 }
 ​
 nav>ul {
@@ -215,6 +216,7 @@ nav>ul {
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
+
 ​
 .navtoggle.responsive nav {
   padding: 24px 0 0;
@@ -280,55 +282,75 @@ Medium devices (640px and larger)
 ================================= */
 
 @media only screen and (min-width: 641px) {}
-  header {
-    text-align: unset;
-    padding: 20px 0 13px;
-  }
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
 ​
-  nav {width: auto;
-    float: right;
-    margin-top: 4px;}
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
 
 ​
-    nav>ul>li {display: inline-block;}
+nav>ul>li {
+  display: inline-block;
+}
 ​
-    .navtoggle li:not(:last-child) {display: inline-block;}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
 ​
-  .navtoggle li:last-child {display: none;}
+.navtoggle li:last-child {
+  display: none;
+}
 ​
-.navtoggle.responsive li  {display: block;}
+.navtoggle.responsive li  {
+  display: block;
+}
 ​
-nav > ul {margin: 1em 0;}
+nav > ul {
+  margin: 1em 0;
+}
+
 ​
 ​
 ​
-  .col-md-6 {
-    width: 50%;}
+.col-md-6 {
+  width: 50%;
+}
 
 
 ​
-  .col-lg-7{width: 58.33%;}
-  .col-lg-5{width: 41.66%;}
-​
-​
+.col-lg-7{
+  width: 58.33%;
+}
+.col-lg-5{
+  width: 41.66%;
+}
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
+
 @media only screen and (min-width: 1024px) {}
-​
+
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
 ​
 header {
   text-align: unset;
 }
+
 ​
 [class*="col-"] {
   float: left;
-padding: 10px;
-box-sizing: border-box;
+  padding: 10px;
+  box-sizing: border-box;
 }
 ​
 ​
@@ -338,18 +360,28 @@ box-sizing: border-box;
   display: table;
 }
 ​
-#about-page h3 { margin-top: 0;
+#about-page h3 {
+  margin-top: 0;
 }
 
 @keyframes color-change {
 
-  from {fill: #6FCFA1;}
-  to {fill: #4656E4;}
+  from {
+    fill: #6fcfa1;
+  }
+  to {
+    fill: #4656E4;
+  }
 }
 
 @keyframes star-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 .star {
