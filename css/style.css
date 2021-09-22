@@ -140,12 +140,11 @@ a {
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
 }
-​
 
 .button:hover {
   opacity: 0.8;
 }
-​
+
 a.social img {
   width: auto;
 }
@@ -201,7 +200,7 @@ nav > ul {
   padding: 0;
   margin: 0;
 }
-​
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -279,7 +278,7 @@ nav {
   margin-top: 4px;
 }
 
-nav>ul>li {
+nav > ul > li {
   display: inline-block;
 }
 ​
@@ -357,7 +356,7 @@ header {
   from {
     transform: translate(0, 50px);
   }
-  
+
   to {
     transform: translate(200px, 50px);
   }
