@@ -61,7 +61,6 @@ a:visited {
   color: #451600;
 }
 
-​
 a:hover {
   color: #cc6540;
   text-decoration: underline;
@@ -69,7 +68,6 @@ a:hover {
   /* Underlining when hovering over a link */
 }
 
-​
 a:hover,
 a:focus {
   color: #b8a397;
@@ -80,7 +78,6 @@ a:active {
   color: #994c30;
 }
 
-​
 a {
   color: #ba8768;
   text-decoration: none;
@@ -88,7 +85,6 @@ a {
   /* No underlining */
 }
 
-​
 .button,
 .button:visited {
   display: inline-block;
@@ -102,8 +98,6 @@ a {
   transition-property: opacity;
 }
 
-​
-
 .button:hover,
 .button:focus,
 .button:active {
@@ -114,18 +108,15 @@ a {
   text-decoration: none;
 }
 
-​
 .button:hover {
   opacity: 0.8;
 }
 
-​
 .inlinelink {
   color: #b87333;
   text-decoration: none;
 }
 
-​
 .button.contact {
   background-color: transparent;
   color: #f47033;
@@ -133,13 +124,11 @@ a {
   border: 2px solid #f47033;
 }
 
-​
 .button.contact:hover {
   background-color: #f47033;
   color: #fff;
 }
 
-​
 .button {
   display: inline-block;
   background-color: #d1a78f;
@@ -151,98 +140,76 @@ a {
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
 }
+​
 
-​
-​
-​
-​
-​
 .button:hover {
   opacity: 0.8;
 }
-
-​
 ​
 a.social img {
   width: auto;
 }
 
-​
 .logo {
   width: auto;
 }
 
-​
 /* Layout styling */
 .container {
   padding: 0 15px;
 }
 
-​
-​
-​
 .row {
   margin: 25px 0;
 
   /* 25px top and bottom, 0 left and right */
 }
 
-​
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
 }
 
-​
 #hero h1 {
   text-align: center;
 
   /* Centers text */
 }
 
-​
 #hero p {
   text-align: center;
 
   /* Centers text */
 }
 
-​
 #work {
   text-align: left;
 }
 
-​
 .logo {
   max-width: 150px;
 }
 
-​
 .berlin-illustration {
   width: 100%;
   max-width: 100%;
   height: 200px;
 }
 
-​
 nav > ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
-​
 ​
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-​
 .navtoggle.navtoggle.responsive {
   position: relative;
 }
 
-​
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
@@ -253,13 +220,10 @@ nav > ul {
   border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
-​
-
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
-​
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -268,8 +232,6 @@ nav > ul {
   padding-right: 0;
 }
 
-​
-
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -277,22 +239,18 @@ nav > ul > li > a {
   color: #d1a78f;
 }
 
-​
 nav > ul > li > a:visited {
   color: #451600;
 }
 
-​
 nav > ul > li > a:hover {
   color: #cc6540;
 }
 
-​
 nav > ul > li > a:active {
   color: #994c30;
 }
 
-​
 #hero span {
   background-color: transparent;
   padding: 20px 0;
@@ -324,7 +282,6 @@ nav {
 nav>ul>li {
   display: inline-block;
 }
-
 ​
 .navtoggle li:not(:last-child) {
   display: inline-block;
@@ -334,17 +291,14 @@ nav>ul>li {
   display: none;
 }
 
-​
 .navtoggle.responsive li {
   display: block;
 }
 
-​
 nav > ul {
   margin: 1em 0;
 }
 
-​
 .col-md-6 {
   width: 50%;
 }
@@ -403,7 +357,7 @@ header {
   from {
     transform: translate(0, 50px);
   }
-
+  
   to {
     transform: translate(200px, 50px);
   }
