@@ -11,8 +11,7 @@ header {
   border-bottom: 3px solid #4a4a4a;
   box-shadow: 6px 8px 10px 0px rgba(50, 50, 50, 0.45);
   position: relative;
-}
-​
+}​
 
 ​
 body {
@@ -24,7 +23,7 @@ body {
   font-size: 15px;
   font-weight: 200;
   line-height: 1.5;
-}
+
 
 /* Sets the line-height to 1.5 * the font-size */
 
@@ -340,7 +339,7 @@ Large devices (1024px or larger)
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {}
 ​
 header {
   text-align: unset;
