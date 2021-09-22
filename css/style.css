@@ -287,41 +287,28 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 ​
-  nav {
-    width: auto;
+  nav {width: auto;
     float: right;
-    margin-top: 4px;
-  }
+    margin-top: 4px;}
 ​
 ​
 ​
-    nav>ul>li {
-      display: inline-block;
-    }
+    nav>ul>li {display: inline-block;}
 ​
-    .navtoggle li:not(:last-child) {
-      display: inline-block;
-    }
+    .navtoggle li:not(:last-child) {display: inline-block;}
 ​
-  .navtoggle li:last-child {
-  display: none;
-}
+  .navtoggle li:last-child {display: none;}
 ​
-.navtoggle.responsive li  {
-  display: block;
-}
+.navtoggle.responsive li  {display: block;}
 ​
-nav > ul {
-  margin: 1em 0;
-}
+nav > ul {margin: 1em 0;}
 ​
 ​
 ​
   .col-md-6 {
-    width: 50%;
+    width: 50%;}
+
   }
-​
-}
 ​
   .col-lg-7{width: 58.33%;}
   .col-lg-5{width: 41.66%;}
